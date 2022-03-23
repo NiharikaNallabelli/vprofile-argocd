@@ -20,5 +20,11 @@ spec:
       containers:
       - image: rithu1320/app01:latest
         name: app01
+        env:
+        - name: DB_PASSWORD
+          valueFrom:
+           secretKeyRef:
+            name: app-secret
+            key: db-pass
         resources: {}
 status: {}
