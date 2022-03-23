@@ -1,6 +1,3 @@
-
-vprofile:
-  tag: rithu1320/web01:latest
 app01:
   tag: rithu1320/app01:latest
 db01:
