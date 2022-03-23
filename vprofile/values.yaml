@@ -1,0 +1,11 @@
+
+vprofile:
+  tag: rithu1320/web01:latest
+app01:
+  tag: rithu1320/app01:latest
+db01:
+  tag: rithu1320/db01:latest
+  dbuser: "admin"
+  dbname: "accounts"
+  dbpassword: "admin123"
+
