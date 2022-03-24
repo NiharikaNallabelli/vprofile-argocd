@@ -18,7 +18,7 @@ spec:
         app: mysql
     spec:
       containers:
-      - image: rithu1320/db01:latest
+      - image: niharika0606/db01:latest
         name: db01
         resources: {}
 status: {}
